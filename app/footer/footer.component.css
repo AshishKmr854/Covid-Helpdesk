@@ -1,0 +1,23 @@
+.container-fluid{
+    background-color: black;
+    height:300px;
+   color: white;
+}
+.container-fluid .row .col-md-4{
+    text-align: center;
+    
+}
+.container-fluid .row .col-md-4 .col-md-2 .p{
+    text-align: center;
+    font-weight: bold;
+}
+.container-fluid .col{
+ padding-top: 5px;
+ text-align: center;
+ 
+}
+.container-fluid .col-md-2{
+    padding-top: 5px;
+    text-align: center;
+    width: fit-content;
+}

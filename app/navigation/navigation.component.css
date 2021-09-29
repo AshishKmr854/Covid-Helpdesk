@@ -1,0 +1,46 @@
+.collapse .navbar-nav .nav-item .btn{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size:15px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .collapse .navbar-nav .nav-item .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .collapse .navbar-nav .nav-item .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .collapse .navbar-nav .nav-item .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .collapse .navbar-nav .nav-item .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ .header_variable{
+   position: fixed;
+   z-index:1;
+   width:99%;
+   }
+   
+   

@@ -1,0 +1,17 @@
+.row .col-12 h5{
+    background-color:aqua;
+    color: black;
+    margin-top: 25px;
+    padding: 25px;
+    
+}
+
+.col-12 .header{
+    margin-top: 25px;
+    padding:38px;
+    background: pink;
+    color: red;
+}
+.col-12 .row .col-md-4 .card {
+    text-align: center;
+}

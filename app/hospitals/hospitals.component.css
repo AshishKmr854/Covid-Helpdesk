@@ -1,0 +1,75 @@
+.container-fluid{
+    background-image:url("../../assets/backgroundd.jpg") ;
+    height:fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:fit-content;
+}
+h1{
+    padding:50px;
+    background-color: #ff0048;
+    background-repeat: no-repeat;
+    width:fit-content;
+    height:290px;
+    border: solid black;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:Californian FB;
+    text-shadow: grey 20px;
+  
+}
+.mix-media-img_loose {
+    margin: 0 30px 0 0;
+}
+.media-img {
+    float: left;
+}
+img {
+    vertical-align: bottom;
+    border-radius: 6px;
+}
+.media-body{
+    overflow: hidden;
+    border: solid black;
+    padding: 10px;
+}
+.media .media-body h5{
+    font-family:Bahnschrift;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.badge-info{
+    background-image: linear-gradient(
+90deg
+,#0015d6,#79ffff);
+}
+.badge-info{
+  text-decoration: none;
+  text-align: center;
+  margin-bottom:20px;
+}
+.btn-primary {
+    z-index: 1;
+    right: 25%;
+    left: 25%;
+    position: absolute;
+    bottom: -20px;
+    width: 50%;
+    margin-top: 5px;
+    background-color: #ff0048;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 1px 1px 16px #f873aa;
+    overflow: hidden;
+}
+.row-md-12{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+}

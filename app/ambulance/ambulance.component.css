@@ -1,0 +1,131 @@
+.container-fluid{
+  background-image: url("../../assets/background.jpg");
+    
+    
+    height:fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .col-md-10{
+   margin-top:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+    outline-color: red;
+    outline:red solid 5px
+    
+  }
+  .col-md-10 h2{
+    color:black;
+    margin: 2px;
+    text-align: center;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px red;
+  }
+  .col-md-10 p{
+    margin-top: 5px;
+    color:black;
+    padding:10px;
+    font-size: medium;
+    text-align: justify;
+    font-family:Bodoni MT;
+    
+  }
+  .col-md-10 {
+    animation: zoom-in-zoom-out 3s ease infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2,1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  .col-md-8 h2{
+    background-color: white;
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+  }
+ 
+  .col-md-8 p{
+    background-color:aqua;
+    padding:10px;
+    border: solid;
+    border-radius: 10px;
+    color: black;
+    border-color: greenyellow;
+   
+  }
+ .col-md-4 .card .card-img-top{
+   padding-left: 50px;
+   border: solid black;
+   border-radius: 20px;
+   
+ }
+ 
+  .row .col-md-3 .card .card-body{
+  
+    border: solid;
+    box-shadow: 25px;
+  }
+  .badge-info{
+    background-image: linear-gradient(
+90deg
+,#0015d6,#79ffff);
+text-align: center;
+border: #fff;
+border-radius:10px;
+}
+
+ 
+
+.btn-primary{
+  
+    z-index: 1;
+    right: 25%;
+    left: 25%;
+    position: absolute;
+    bottom: -20px;
+    width: 50%;
+    margin-top: 5px;
+    background-color: #ff0048;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 1px 1px 16px #f873aa;
+}
+.card{
+padding: .7rem;
+max-width: 22rem;
+height:fit-content;
+align-items: center;
+border-top: 2px solid rgba(255,0,64,.288);
+border-bottom: 2px solid rgba(250,0,62,.404);
+border-radius: 5px;
+box-shadow: 5px 5px 15px hsl(0deg 0% 65% / 40%);
+}
+.container .main h1{
+  background-color:#79ffff;
+  padding: 2px;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: solid palevioletred;
+ 
+}
+.container .row .card .card-body .card-title{
+  text-transform: uppercase;
+}
+
+
+  
